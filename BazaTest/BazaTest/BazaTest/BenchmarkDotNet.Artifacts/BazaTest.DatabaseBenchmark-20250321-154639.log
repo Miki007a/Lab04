@@ -1,0 +1,95 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 3 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet  restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true /p:IntermediateOutputPath="F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\obj\Release\net8.0/" /p:OutDir="F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\bin\Release\net8.0/" /p:OutputPath="F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\bin\Release\net8.0/" in F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512
+// command took 3.43 sec and exited with 0
+// start dotnet  build -c Release --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 /p:Deterministic=true /p:Optimize=true /p:IntermediateOutputPath="F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\obj\Release\net8.0/" /p:OutDir="F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\bin\Release\net8.0/" /p:OutputPath="F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\bin\Release\net8.0/" --output "F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\bin\Release\net8.0/" in F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512
+// command took 19.04 sec and exited with 1
+// ***** Done, took 00:00:23 (23.06 sec)   *****
+// Found 3 benchmarks:
+//   DatabaseBenchmark.FetchWithEntityFrameworkAsync: DefaultJob
+//   DatabaseBenchmark.FetchWithDapperAsync: DefaultJob
+//   DatabaseBenchmark.FetchWithOracleClientAsync: DefaultJob
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// Build Error: Standard output: 
+  
+ Standard error: 
+ F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\Pages\Database.razor(150,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\BazaTest.Client.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\Pages\Database.razor(157,32): warning CS8601: Possible null reference assignment. [F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\BazaTest.Client.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\Pages\Database.razor(172,32): warning CS8601: Possible null reference assignment. [F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\BazaTest.Client.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\Pages\Database.razor(130,32): warning CS8618: Non-nullable field 'dnevnikTerms' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\BazaTest.Client.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\Pages\Database.razor(132,20): warning CS8618: Non-nullable field 'error' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\BazaTest.Client.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\Pages\Database.razor(134,23): warning CS0649: Field 'Database.lastUpdated' is never assigned to, and will always have its default value [F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\BazaTest.Client.csproj]
+  BazaTest.Client -> F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\bin\Release\net8.0\BazaTest.Client.dll
+  BazaTest.Client (Blazor output) -> F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\bin\Release\net8.0\wwwroot
+F:\SinsSystems\BazaTest\BazaTest\BazaTest\Controllers\DatabaseController.cs(22,29): warning CS8601: Possible null reference assignment. [F:\SinsSystems\BazaTest\BazaTest\BazaTest\BazaTest.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest\Controllers\DatabaseController.cs(19,12): warning CS8618: Non-nullable field '_connectionString' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [F:\SinsSystems\BazaTest\BazaTest\BazaTest\BazaTest.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest\DatabaseBenchmark.cs(20,34): warning CS0649: Field 'DatabaseBenchmark._connectionString' is never assigned to, and will always have its default value null [F:\SinsSystems\BazaTest\BazaTest\BazaTest\BazaTest.csproj]
+  BazaTest -> F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\bin\Release\net8.0\BazaTest.dll
+F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\10fa11c8-5965-4c01-8750-478013458512.notcs(584,16): error CS7036: There is no argument given that corresponds to the required parameter '_context' of 'DatabaseBenchmark.DatabaseBenchmark(ApplicationDbContext)' [F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\BenchmarkDotNet.Autogenerated.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\10fa11c8-5965-4c01-8750-478013458512.notcs(190,16): error CS7036: There is no argument given that corresponds to the required parameter '_context' of 'DatabaseBenchmark.DatabaseBenchmark(ApplicationDbContext)' [F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\BenchmarkDotNet.Autogenerated.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\10fa11c8-5965-4c01-8750-478013458512.notcs(387,16): error CS7036: There is no argument given that corresponds to the required parameter '_context' of 'DatabaseBenchmark.DatabaseBenchmark(ApplicationDbContext)' [F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\BenchmarkDotNet.Autogenerated.csproj]
+Build FAILED.
+F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\Pages\Database.razor(150,17): warning CS8625: Cannot convert null literal to non-nullable reference type. [F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\BazaTest.Client.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\Pages\Database.razor(157,32): warning CS8601: Possible null reference assignment. [F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\BazaTest.Client.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\Pages\Database.razor(172,32): warning CS8601: Possible null reference assignment. [F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\BazaTest.Client.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\Pages\Database.razor(130,32): warning CS8618: Non-nullable field 'dnevnikTerms' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\BazaTest.Client.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\Pages\Database.razor(132,20): warning CS8618: Non-nullable field 'error' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\BazaTest.Client.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\Pages\Database.razor(134,23): warning CS0649: Field 'Database.lastUpdated' is never assigned to, and will always have its default value [F:\SinsSystems\BazaTest\BazaTest\BazaTest.Client\BazaTest.Client.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest\Controllers\DatabaseController.cs(22,29): warning CS8601: Possible null reference assignment. [F:\SinsSystems\BazaTest\BazaTest\BazaTest\BazaTest.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest\Controllers\DatabaseController.cs(19,12): warning CS8618: Non-nullable field '_connectionString' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [F:\SinsSystems\BazaTest\BazaTest\BazaTest\BazaTest.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest\DatabaseBenchmark.cs(20,34): warning CS0649: Field 'DatabaseBenchmark._connectionString' is never assigned to, and will always have its default value null [F:\SinsSystems\BazaTest\BazaTest\BazaTest\BazaTest.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\10fa11c8-5965-4c01-8750-478013458512.notcs(584,16): error CS7036: There is no argument given that corresponds to the required parameter '_context' of 'DatabaseBenchmark.DatabaseBenchmark(ApplicationDbContext)' [F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\BenchmarkDotNet.Autogenerated.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\10fa11c8-5965-4c01-8750-478013458512.notcs(190,16): error CS7036: There is no argument given that corresponds to the required parameter '_context' of 'DatabaseBenchmark.DatabaseBenchmark(ApplicationDbContext)' [F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\BenchmarkDotNet.Autogenerated.csproj]
+F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\10fa11c8-5965-4c01-8750-478013458512.notcs(387,16): error CS7036: There is no argument given that corresponds to the required parameter '_context' of 'DatabaseBenchmark.DatabaseBenchmark(ApplicationDbContext)' [F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512\BenchmarkDotNet.Autogenerated.csproj]
+    9 Warning(s)
+    3 Error(s)
+Time Elapsed 00:00:18.73
+Workload updates are available. Run `dotnet workload list` for more information.
+
+// BenchmarkDotNet has failed to build the auto-generated boilerplate code.
+// It can be found in F:\SinsSystems\BazaTest\BazaTest\BazaTest\bin\Release\net8.0\10fa11c8-5965-4c01-8750-478013458512
+// Please follow the troubleshooting guide: https://benchmarkdotnet.org/articles/guides/troubleshooting.html
+
+// ** Remained 0 (0.0%) benchmark(s) to run. Estimated finish 2025-03-21 15:47 (0h 0m from now) **
+Successfully reverted power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\BazaTest.DatabaseBenchmark-report.csv
+  BenchmarkDotNet.Artifacts\results\BazaTest.DatabaseBenchmark-report-github.md
+  BenchmarkDotNet.Artifacts\results\BazaTest.DatabaseBenchmark-report.html
+
+// * Detailed results *
+DatabaseBenchmark.FetchWithEntityFrameworkAsync: DefaultJob
+Runtime = ; GC = 
+There are not any results runs
+
+// * Summary *
+
+BenchmarkDotNet v0.14.0, Windows 10 (10.0.19045.5608/22H2/2022Update)
+Intel Core i5-4460 CPU 3.20GHz (Haswell), 1 CPU, 4 logical and 4 physical cores
+.NET SDK 9.0.201
+  [Host] : .NET 8.0.14 (8.0.1425.11118), X64 RyuJIT AVX2
+
+
+| Method                        | Mean | Error |
+|------------------------------ |-----:|------:|
+| FetchWithEntityFrameworkAsync |   NA |    NA |
+
+Benchmarks with issues:
+  DatabaseBenchmark.FetchWithEntityFrameworkAsync: DefaultJob
+
+// * Legends *
+  Mean  : Arithmetic mean of all measurements
+  Error : Half of 99.9% confidence interval
+  1 ns  : 1 Nanosecond (0.000000001 sec)
+
+// ***** BenchmarkRunner: End *****
+Run time: 00:00:00 (0.1 sec), executed benchmarks: 0
+
+Global total time: 00:00:23 (23.89 sec), executed benchmarks: 0
+// * Artifacts cleanup *
+Artifacts cleanup is finished

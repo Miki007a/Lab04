@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35828.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BazaTest", "BazaTest\BazaTest\BazaTest.csproj", "{4EA5D124-773C-4B40-A662-5468DDF22C5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BazaTest.Client", "BazaTest\BazaTest.Client\BazaTest.Client.csproj", "{8A3203CD-8E37-4373-8C88-BB6669923130}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EA5D124-773C-4B40-A662-5468DDF22C5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EA5D124-773C-4B40-A662-5468DDF22C5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EA5D124-773C-4B40-A662-5468DDF22C5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EA5D124-773C-4B40-A662-5468DDF22C5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A3203CD-8E37-4373-8C88-BB6669923130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A3203CD-8E37-4373-8C88-BB6669923130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A3203CD-8E37-4373-8C88-BB6669923130}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A3203CD-8E37-4373-8C88-BB6669923130}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD832940-404E-4825-9A0B-B871248A07FE}
+	EndGlobalSection
+EndGlobal
